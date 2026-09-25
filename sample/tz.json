@@ -1,0 +1,12 @@
+{
+  "no_rule_code": "E_NO_RULE",
+  "interval": 30,
+  "policy": "later",
+  "probe": 150,
+  "rules": [
+    {"from": 0, "until": 120, "offset": 0},
+    {"from": 120, "until": 180, "offset": 60},
+    {"from": 180, "until": 300, "offset": 30}
+  ],
+  "points": [0, 30, 60, 90, 120, 150, 180, 210]
+}
